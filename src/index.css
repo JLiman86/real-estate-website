@@ -6,4 +6,8 @@
   body {
     @apply font-primary bg-gray-200
   }
+
+  span,a {
+    @apply inline-block
+  }
 }

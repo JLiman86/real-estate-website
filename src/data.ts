@@ -54,6 +54,16 @@ import Agent10 from "./assets/img/agents/agent10.png";
 import Agent11 from "./assets/img/agents/agent11.png";
 import Agent12 from "./assets/img/agents/agent12.png";
 
+export const priceRanges = [
+  "Default value",
+  "0 - 49999",
+  "50000 - 99999",
+  "100000 - 149999",
+  "150000 - 199999",
+  "200000 - 249999",
+  "250000 - 299999",
+];
+
 export const housesData = [
   {
     id: 1,
