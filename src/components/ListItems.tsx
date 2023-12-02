@@ -8,7 +8,7 @@ const ListItems = () => {
 
   if (loading) {
     return (
-      <section className="flex items-center justify-center h-[600px]">
+      <section className="flex items-center justify-center h-[600px] mt-5">
         <CgSpinner className = "animate-spin" size={40}/>
       </section>
     );
@@ -16,7 +16,7 @@ const ListItems = () => {
 
   if (houses.length < 1) {
     return (
-      <section className="flex items-center justify-center h-[600px]">
+      <section className="flex items-center justify-center h-[600px] mt-5">
         NO DATA
       </section>
     );
