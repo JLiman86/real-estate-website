@@ -20,7 +20,7 @@ const ListItem = ({ house }: { house: HouseType }) => {
 
   return (
     <Link
-      className="shadow-2xl rounded-tl-[90px] overflow-hidden"
+      className="shadow-2xl rounded-tl-[110px] overflow-hidden"
       to={`/houses/${id}`}
     >
       <li className="flex flex-col gap-3 shadow-xl p-4 ">

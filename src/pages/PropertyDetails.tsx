@@ -48,7 +48,7 @@ const PropertyDetails = () => {
           <div className="md:w-2/3 w-full">
             <img className="w-full" src={imageLg} alt="" />
 
-            <div className="flex gap-6 py-4 text-violet-600">
+            <div className="flex gap-2 py-4 text-violet-600">
               <div className="flex items-center gap-2">
                 <IoBedOutline />
                 <span> {bedrooms}</span>
