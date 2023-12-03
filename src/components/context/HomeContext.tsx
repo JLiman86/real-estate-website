@@ -22,19 +22,7 @@ type ContextType = {
   setPriceRange: React.Dispatch<SetStateAction<string>>;
 };
 
-export const HomeContext = createContext<ContextType>({
-  country: "",
-  flatType: "",
-  priceRange: "",
-  countries: [],
-  flatTypes: [],
-  handleClickSearch: () => {},
-  setCountry: () => {},
-  setFlatType: () => {},
-  setPriceRange: () => {},
-  houses: [],
-  loading: false,
-});
+export const HomeContext = createContext<ContextType>({} as ContextType);
 
 const HomeContextProvider = ({ children }: { children: React.ReactNode }) => {
   const [countries, setCountries] = useState<Array<string>>([]);
